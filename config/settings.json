@@ -1,0 +1,26 @@
+{
+  "logging": {
+    "level": "INFO",
+    "directory": "logs",
+    "json": true
+  },
+  "runtime": {
+    "loop_interval_seconds": 1.0,
+    "save_failure_screenshots": true,
+    "artifacts_directory": "artifacts"
+  },
+  "emulators": [
+    {
+      "name": "emu_1",
+      "window_title": "Android Emulator 1",
+      "monitor_index": 1,
+      "enabled": true
+    },
+    {
+      "name": "emu_2",
+      "window_title": "Android Emulator 2",
+      "monitor_index": 1,
+      "enabled": false
+    }
+  ]
+}
